@@ -15,7 +15,7 @@ from boto3.dynamodb.conditions import Attr
 load_dotenv()
 
 # ---------------------------------------
-# Flask App Initialization
+
 # ---------------------------------------
 app = Flask(__name__)
 app.secret_key = os.environ.get('SECRET_KEY', 'fleetsync_secret_key_2024')
